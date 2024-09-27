@@ -192,3 +192,8 @@ Se você quiser adicionar testes, pode usar uma estrutura de testes como [Jest](
 ## 📄 Licença
 
 Este projeto está sob a licença MIT.
+
+## 🤝 Contribuídores
+
+<a href="https://github.com/omiguelgoulart"><img src="https://github.com/omiguelgoulart.png" width="45" height="45"></a> &nbsp;
+<a href="https://github.com/JoaoAANgr"><img src="https://github.com/JoaoAANgr.png" width="45" height="45"></a> &nbsp;
