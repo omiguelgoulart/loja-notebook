@@ -151,10 +151,6 @@ Esta API foi criada para gerenciar o catálogo de notebooks de uma loja. Ela per
     ```
     
 
-### 7. **Filtrar notebooks por quantidade mínima e máxima**
-
-- **GET** `/notebooks?min=5&max=15`
-- **Descrição**: Retorna notebooks com uma quantidade em estoque entre o valor mínimo e máximo.
 
 ## 🧪 Testes
 
