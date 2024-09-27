@@ -38,11 +38,11 @@ Esta API foi criada para gerenciar o catálogo de notebooks de uma loja. Ela per
     
 3. **Configuração do Banco de Dados**:
     
-    Crie um arquivo `.env` na raiz do projeto e configure a URL do banco de dados (pode ser SQLite ou qualquer outro banco compatível com Prisma):
+    Crie um arquivo `.env` na raiz do projeto e configure a URL do banco de dados ):
     
     ```bash
     
-    DATABASE_URL="file:./dev.db"
+    DATABASE_URL="seu-url-de-conexao-aqui"
     
     ```
     
