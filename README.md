@@ -7,25 +7,8 @@ Esta API foi criada para gerenciar o catálogo de notebooks de uma loja. Ela per
 - [Node.js](https://nodejs.org/)
 - [Express.js](https://expressjs.com/)
 - [Prisma ORM](https://www.prisma.io/)
-- [SQLite](https://www.sqlite.org/) (ou outro banco de dados de sua preferência)
+- [MySQL](https://www.mysql.com/)
 - [TypeScript](https://www.typescriptlang.org/)
-
-## 📁 Estrutura do Projeto
-
-```java
-java
-Copiar código
-📦 loja-de-notebooks-api
- ┣ 📂prisma
- ┃ ┣ 📜schema.prisma        # Definição do modelo de dados do Prisma
- ┣ 📂src
- ┃ ┣ 📜index.ts             # Configuração do servidor e rotas
- ┃ ┣ 📜routes.ts            # Definição das rotas da API
- ┣ 📜.env                   # Variáveis de ambiente (configuração do banco de dados)
- ┣ 📜package.json           # Dependências e scripts do projeto
- ┗ 📜README.md              # Documentação do projeto
-
-```
 
 ## 🚀 Instalação e Configuração
 
@@ -39,8 +22,7 @@ Copiar código
 1. **Clone o repositório**:
     
     ```bash
-    bash
-    Copiar código
+ 
     git clone https://github.com/seu-usuario/loja-de-notebooks-api.git
     
     ```
@@ -48,8 +30,7 @@ Copiar código
 2. **Instale as dependências**:
     
     ```bash
-    bash
-    Copiar código
+    
     cd loja-de-notebooks-api
     npm install
     
@@ -60,8 +41,7 @@ Copiar código
     Crie um arquivo `.env` na raiz do projeto e configure a URL do banco de dados (pode ser SQLite ou qualquer outro banco compatível com Prisma):
     
     ```bash
-    bash
-    Copiar código
+    
     DATABASE_URL="file:./dev.db"
     
     ```
@@ -71,8 +51,7 @@ Copiar código
     Execute os seguintes comandos para criar as tabelas e configurar o banco de dados:
     
     ```bash
-    bash
-    Copiar código
+    
     npx prisma migrate dev --name init
     npx prisma generate
     
@@ -81,8 +60,7 @@ Copiar código
 5. **Inicie o servidor**:
     
     ```bash
-    bash
-    Copiar código
+    
     npm run dev
     
     ```
@@ -99,8 +77,7 @@ Copiar código
 - **Exemplo de requisição**:
     
     ```json
-    json
-    Copiar código
+    
     {
       "modelo": "MacBook Air",
       "marca": "Apple",
@@ -126,8 +103,6 @@ Copiar código
 - **Exemplo de requisição**:
     
     ```json
-    json
-    Copiar código
     {
       "ram": 32,
       "tela": 15.6
@@ -148,8 +123,6 @@ Copiar código
 - **Exemplo de resposta**:
     
     ```json
-    json
-    Copiar código
     {
       "totalQuantidade": 35
     }
@@ -164,8 +137,6 @@ Copiar código
 - **Exemplo de resposta**:
     
     ```json
-    json
-    Copiar código
     [
       {
         "marca": "Dell",
